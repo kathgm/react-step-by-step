@@ -1,3 +1,5 @@
+import TodoList from "./components/TodoList";
+
 function Profile() {
   return (
     <img
@@ -14,6 +16,7 @@ export default function Gallery() {
       <Profile />
       <Profile />
       <Profile />
+      <TodoList/>
     </section>
   );
 }
