@@ -1,3 +1,4 @@
+import Avatar from "./components/Avatar";
 import TodoList from "./components/TodoList";
 
 function Profile() {
@@ -17,6 +18,7 @@ export default function Gallery() {
       <Profile />
       <Profile />
       <TodoList/>
+      <Avatar/>
     </section>
   );
 }
