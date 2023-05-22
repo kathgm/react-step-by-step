@@ -2,6 +2,7 @@ import Avatar from "./components/Avatar";
 import TodoList from "./components/TodoList";
 import Profile from "./components/Profile";
 import PackingList from "./components/PackingList";
+import RenderList from "./components/RenderList";
 
 
 export default function Gallery() {
@@ -11,6 +12,7 @@ export default function Gallery() {
       <Profile />
       <TodoList/>
       <PackingList/>
+      <RenderList />
     </section>
   );
 }
