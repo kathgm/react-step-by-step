@@ -8,11 +8,13 @@ import Toolbar from "./components/Toolbar";
 import Counter from "./components/Counter";
 import Form from "./components/Form";
 import Stopwatch from "./components/Stopwatch";
+import Effects from "./components/Effects";
 
 
 export default function Gallery() {
   return (
     <section>
+      <Effects/>
       <Stopwatch/>
       <Form/>
       <Counter/>
