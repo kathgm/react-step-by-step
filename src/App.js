@@ -7,11 +7,13 @@ import Button from "./components/Button";
 import Toolbar from "./components/Toolbar";
 import Counter from "./components/Counter";
 import Form from "./components/Form";
+import Stopwatch from "./components/Stopwatch";
 
 
 export default function Gallery() {
   return (
     <section>
+      <Stopwatch/>
       <Form/>
       <Counter/>
       <Button/>
